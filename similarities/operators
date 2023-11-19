@@ -1,0 +1,71 @@
+#include <stdio.h>
+
+int main() {
+    // Arithmetic operators
+    int a = 10, b = 5;
+    printf("Arithmetic Operators:\n");
+    printf("%d + %d = %d\n", a, b, a + b);
+    printf("%d - %d = %d\n", a, b, a - b);
+    printf("%d * %d = %d\n", a, b, a * b);
+    printf("%d / %d = %d\n", a, b, a / b);
+
+    // Boolean operators
+    int x = 1, y = 0;
+    printf("Boolean Operators:\n");
+    printf("%d AND %d = %d\n", x, y, x && y);
+    printf("%d OR %d = %d\n", x, y, x || y);
+    printf("NOT %d = %d, NOT %d = %d\n", x, !x, y, !y);
+
+    // Assignment operators
+    int c = 7;
+    printf("Assignment Operators:\n");
+    c += 3;
+    printf("c += 3 : c = %d\n", c);
+    c *= 2;
+    printf("c *= 2 : c = %d\n", c);
+
+    // Comparison operators
+    int p = 5, q = 10;
+    printf("Comparison Operators:\n");
+    printf("%d == %d : %d\n", p, q, p == q);
+    printf("%d != %d : %d\n", p, q, p != q);
+    printf("%d < %d : %d\n", p, q, p < q);
+    printf("%d > %d : %d\n", p, q, p > q);
+
+    return 0;
+}
+
+<?php
+// Arithmetic operators
+$a = 10; $b = 5;
+echo "Arithmetic Operators:\n";
+echo "$a + $b = " . ($a + $b) . "\n";
+echo "$a - $b = " . ($a - $b) . "\n";
+echo "$a * $b = " . ($a * $b) . "\n";
+echo "$a / $b = " . ($a / $b) . "\n";
+
+// Boolean operators
+$x = true; $y = false;
+echo "Boolean Operators:\n";
+echo "$x AND $y = " . ($x && $y) . "\n";
+echo "$x OR $y = " . ($x || $y) . "\n";
+echo "NOT $x = " . (!$x) . ", NOT $y = " . (!$y) . "\n";
+
+// Assignment operators
+$c = 7;
+echo "Assignment Operators:\n";
+$c += 3;
+echo "c += 3 : c = $c\n";
+$c *= 2;
+echo "c *= 2 : c = $c\n";
+
+// Comparison operators
+$p = 5; $q = 10;
+echo "Comparison Operators:\n";
+echo "$p == $q : " . ($p == $q) . "\n";
+echo "$p != $q : " . ($p != $q) . "\n";
+echo "$p < $q : " . ($p < $q) . "\n";
+echo "$p > $q : " . ($p > $q) . "\n";
+?>
+
+

@@ -1,0 +1,9 @@
+<?php
+// Function call without prior declaration
+$result = add(5, 3);
+echo "Result: $result\n";
+
+// Function definition
+function add($a, $b) {
+    return $a + $b;
+}

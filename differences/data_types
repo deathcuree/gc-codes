@@ -1,0 +1,11 @@
+<?php
+    // PHP example
+    $integerVariable = 42;     // Integer variable
+    $doubleVariable = 3.14;    // Double variable
+
+    $stringVariable = "Hello, PHP!";  // String variable
+    echo $stringVariable . "\n";
+
+    // Length of the string
+    $stringLength = strlen($stringVariable);
+    echo "String length: " . $stringLength . "\n";

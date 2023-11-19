@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Variable declaration with explicit data type
+    int num = 5;
+
+    // Array declaration with fixed size
+    int numbers[5] = {1, 2, 3, 4, 5};
+
+    // Explicit type conversion needed
+    double result = (double)num / 2;
+
+    printf("Result in C: %f\n", result);
+    return 0;
+}

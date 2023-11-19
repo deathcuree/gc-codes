@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int integerVar = 42;
+    double doubleVar = 3.14;
+
+    // Implicit conversion: int to double
+    double result = integerVar + doubleVar;
+    printf("Result: %f\n", result); // Output: 45.140000
+
+    // Explicit type casting: double to int
+    int truncatedResult = (int)result;
+    printf("Truncated Result: %d\n", truncatedResult); // Output: 45
+
+    // Incorrect type conversion (warning): double to int without casting
+    int incorrectResult = result; // This will generate a warning
+    printf("Incorrect Result: %d\n", incorrectResult); // Output may not be as expected
+
+    return 0;
+}

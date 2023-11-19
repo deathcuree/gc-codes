@@ -1,0 +1,12 @@
+<?php
+// Creating an associative array
+$student = array(
+    "name" => "Alice",
+    "age" => 22,
+    "major" => "Computer Science"
+);
+
+// Accessing values using keys
+echo "Name: " . $student["name"] . "\n";
+echo "Age: " . $student["age"] . "\n";
+echo "Major: " . $student["major"] . "\n";

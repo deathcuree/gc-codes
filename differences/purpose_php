@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP Example</title>
+</head>
+
+<body>
+    <?php
+    $name = "Alice";
+    echo "Hello, $name!";
+    ?>
+</body>
+
+</html>

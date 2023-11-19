@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+struct Student {
+    char name[50];
+    int age;
+};
+
+int main() {
+    int integerVar = 42;
+    double doubleVar = 3.14;
+    char charVar = 'A';
+
+    struct Student student; // Defining a structure variable
+    student.age = 20;
+    strcpy(student.name, "John");
+
+    int arr[5] = {10, 20, 30, 40, 50};
+    
+    int *ptr; // Pointer declaration
+
+    printf("Integer: %d\n", integerVar);
+    printf("Double: %f\n", doubleVar);
+    printf("Character: %c\n", charVar);
+    printf("Student: %s, Age: %d\n", student.name, student.age);
+    printf("Array: %d, %d\n", arr[0], arr[1]);
+    
+    ptr = &integerVar;
+    printf("Pointer: %d\n", *ptr);
+
+    return 0;
+}

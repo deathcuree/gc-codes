@@ -1,0 +1,25 @@
+<?php
+// Array representation
+$person1 = array(
+    "name" => "Alice",
+    "age" => 25
+);
+
+// Accessing array elements
+echo "Name: " . $person1["name"] . "\n";
+echo "Age: " . $person1["age"] . "\n";
+
+// Object representation
+class Person {
+    public $name;
+    public $age;
+}
+
+// Object initialization
+$person2 = new Person();
+$person2->name = "Bob";
+$person2->age = 30;
+
+// Accessing object properties
+echo "Name: " . $person2->name . "\n";
+echo "Age: " . $person2->age . "\n";

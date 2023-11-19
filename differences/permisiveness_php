@@ -1,0 +1,11 @@
+<?php
+// Variable declaration without explicit data type
+$num = 5;
+
+// Array without fixed size
+$numbers = array(1, 2, 3, 4, 5);
+
+// Implicit type conversion
+$result = $num / 2;
+
+echo "Result in PHP: $result\n";

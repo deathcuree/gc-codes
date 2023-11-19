@@ -1,0 +1,125 @@
+#include <stdio.h>
+
+int main() {
+    // If-else statement
+    int age = 20;
+    if (age >= 18) {
+        printf("You are an adult.\n");
+    } else {
+        printf("You are not yet an adult.\n");
+    }
+
+    // While loop
+    int i = 1;
+    printf("While Loop:\n");
+    while (i <= 5) {
+        printf("Iteration %d\n", i);
+        i++;
+    }
+
+    // For loop
+    printf("For Loop:\n");
+    for (int j = 1; j <= 5; j++) {
+        printf("Iteration %d\n", j);
+    }
+
+    // Do-while loop
+    int k = 1;
+    printf("Do-While Loop:\n");
+    do {
+        printf("Iteration %d\n", k);
+        k++;
+    } while (k <= 5);
+
+    // Break and continue
+    printf("Break and Continue:\n");
+    for (int m = 1; m <= 10; m++) {
+        if (m == 5) {
+            break; // Exit the loop
+        }
+        if (m % 2 == 0) {
+            continue; // Skip even numbers
+        }
+        printf("%d\n", m);
+    }
+
+    // Switch statement
+    int day = 3;
+    printf("Switch Statement:\n");
+    switch (day) {
+        case 1:
+            printf("Monday\n");
+            break;
+        case 2:
+            printf("Tuesday\n");
+            break;
+        case 3:
+            printf("Wednesday\n");
+            break;
+        default:
+            printf("Other day\n");
+    }
+
+    return 0;
+}
+
+<?php
+// If-else statement
+$age = 20;
+if ($age >= 18) {
+    echo "You are an adult.\n";
+} else {
+    echo "You are not yet an adult.\n";
+}
+
+// While loop
+$i = 1;
+echo "While Loop:\n";
+while ($i <= 5) {
+    echo "Iteration $i\n";
+    $i++;
+}
+
+// For loop
+echo "For Loop:\n";
+for ($j = 1; $j <= 5; $j++) {
+    echo "Iteration $j\n";
+}
+
+// Do-while loop
+$k = 1;
+echo "Do-While Loop:\n";
+do {
+    echo "Iteration $k\n";
+    $k++;
+} while ($k <= 5);
+
+// Break and continue
+echo "Break and Continue:\n";
+for ($m = 1; $m <= 10; $m++) {
+    if ($m == 5) {
+        break; // Exit the loop
+    }
+    if ($m % 2 == 0) {
+        continue; // Skip even numbers
+    }
+    echo "$m\n";
+}
+
+// Switch statement
+$day = 3;
+echo "Switch Statement:\n";
+switch ($day) {
+    case 1:
+        echo "Monday\n";
+        break;
+    case 2:
+        echo "Tuesday\n";
+        break;
+    case 3:
+        echo "Wednesday\n";
+        break;
+    default:
+        echo "Other day\n";
+}
+?>

@@ -1,0 +1,6 @@
+<?php
+$num = 42; // $num is an integer
+$floatNum = 3.14; // $floatNum is a double
+
+$result = $num + $floatNum; // Automatic type conversion from int to double
+echo $result; // Output: 45.14
